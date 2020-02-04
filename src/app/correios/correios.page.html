@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Consulta Correios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="full" (click)="consultarUFs()">
+     Consultar Unidades da Federação    
+  </ion-button>
+  <ion-button expand="full" (click)="consultarLogradouroPorCep()">
+     Consultar Logradouro por CEP    
+  </ion-button>
+
+  <h4>Resposta do servidor</h4>
+  {{resultado}}
+
+</ion-content>

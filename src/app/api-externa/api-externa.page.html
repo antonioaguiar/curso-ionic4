@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>API - Externa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="full" (click)="btnGet()">
+    Get - Receber dados do servidor    
+  </ion-button>
+  <ion-button expand="full" (click)="btnPost()">
+    Post - Enviar dados do servidor    
+  </ion-button>
+
+  <h4>Resposta do servidor</h4>
+  {{resultado}}
+
+</ion-content>

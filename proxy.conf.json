@@ -1,0 +1,16 @@
+{
+  "/servicos": {
+    "target": "http://192.168.2.197:8080",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/hematitabpm": {
+    "target": "http://192.168.2.197:8080",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
+
+

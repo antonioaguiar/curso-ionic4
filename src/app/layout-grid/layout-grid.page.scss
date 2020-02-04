@@ -1,0 +1,14 @@
+ion-grid{
+    ion-row{
+        ion-col{
+            background-color: gray;
+            color: white;
+            margin: 1px;
+        }
+    }
+}
+
+.col15{
+        //configurar qtde de colunas por linha
+        --ion-grid-columns: 15;
+}
